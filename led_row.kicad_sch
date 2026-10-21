@@ -1,0 +1,2189 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c1f43ea4-71e8-4c1b-ac2c-33b1561d7108")
+	(paper "A4" portrait)
+	(lib_symbols
+		(symbol "easyeda2kicad:FM-Z2727RGBA-SH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FM-Z2727RGBA-SH"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED-SMD_6P-L2.7-W2.8-TL"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-Z2727RGBA-SH_C727905.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C727905"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FM-Z2727RGBA-SH_0_1"
+				(polyline
+					(pts
+						(xy -4.06 8.38) (xy -3.05 7.87) (xy -3.56 7.37) (xy -4.06 8.38)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.06 3.3) (xy -3.05 2.79) (xy -3.56 2.29) (xy -4.06 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.06 -1.78) (xy -3.05 -2.29) (xy -3.56 -2.79) (xy -4.06 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 9.4) (xy -2.03 8.89) (xy -2.54 8.38) (xy -3.05 9.4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 4.32) (xy -2.03 3.81) (xy -2.54 3.3) (xy -3.05 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 -0.76) (xy -2.03 -1.27) (xy -2.54 -1.78) (xy -3.05 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 6.6) (xy -3.3 7.62) (xy -2.29 6.6)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 1.52) (xy -3.3 2.54) (xy -2.29 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 -3.56) (xy -3.3 -2.54) (xy -2.29 -3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -2.29 8.64) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.86) (xy -1.27 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -2.29 3.56) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.78) (xy -1.27 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.29 -1.52) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.3) (xy -1.27 -6.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.86) (xy -1.27 5.08) (xy 1.27 3.3) (xy 1.27 6.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.3) (xy -1.27 -5.08) (xy 1.27 -6.86) (xy 1.27 -3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0138dc86-dc5c-4e76-a992-6253d81b0930")
+	)
+	(wire
+		(pts
+			(xy 46.99 163.83) (xy 63.5 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017e17d1-2c6f-4d01-a64a-c1538710a47d")
+	)
+	(wire
+		(pts
+			(xy 63.5 19.05) (xy 63.5 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041a0350-0998-4296-b793-6bee247affe4")
+	)
+	(wire
+		(pts
+			(xy 46.99 193.04) (xy 58.42 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0831a662-781a-4648-8cc0-7b4613516329")
+	)
+	(wire
+		(pts
+			(xy 46.99 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a7d311-e518-4aaf-96c9-1ac390b5baae")
+	)
+	(wire
+		(pts
+			(xy 46.99 99.06) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e44a58-9e75-4883-8a20-c58e410f63dd")
+	)
+	(wire
+		(pts
+			(xy 58.42 161.29) (xy 58.42 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18259044-5022-4d50-83c0-6ac152e1c3ef")
+	)
+	(wire
+		(pts
+			(xy 58.42 19.05) (xy 58.42 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234f2deb-4e93-4eec-9e78-0f2a6ce8d9d2")
+	)
+	(wire
+		(pts
+			(xy 53.34 113.03) (xy 53.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282d437b-317b-4e56-b3dc-3afc20257aac")
+	)
+	(wire
+		(pts
+			(xy 63.5 175.26) (xy 63.5 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a49007e-cca9-4879-9b31-abb177be23d4")
+	)
+	(wire
+		(pts
+			(xy 46.99 101.6) (xy 63.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2503d4-17b1-4e11-88b8-65ff62adf428")
+	)
+	(wire
+		(pts
+			(xy 58.42 130.81) (xy 58.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a06151-2e5e-4442-97ae-c1e61e802d6c")
+	)
+	(wire
+		(pts
+			(xy 58.42 193.04) (xy 58.42 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46834035-3909-4673-9905-b6e6b3335f6b")
+	)
+	(wire
+		(pts
+			(xy 46.99 96.52) (xy 53.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdb31c3-cf8c-41cc-8b43-040cf9e13b25")
+	)
+	(wire
+		(pts
+			(xy 63.5 163.83) (xy 63.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2d4c7b-5ade-4d68-9768-53de05ae83cb")
+	)
+	(wire
+		(pts
+			(xy 63.5 39.37) (xy 63.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d605bc-5b9c-400a-97d5-5fe2e4a38f25")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 63.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58115cb3-a1ae-44b9-93d7-0ed32667dbf2")
+	)
+	(wire
+		(pts
+			(xy 58.42 143.51) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58cbd53b-a3e9-4b3b-b66a-652f3fff9ca2")
+	)
+	(wire
+		(pts
+			(xy 46.99 71.12) (xy 63.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c629d27-7602-4469-b30c-15f51748a7fb")
+	)
+	(wire
+		(pts
+			(xy 53.34 190.5) (xy 53.34 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe0350b-0f88-4e28-a94a-5eb54368dfa8")
+	)
+	(wire
+		(pts
+			(xy 53.34 175.26) (xy 53.34 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe5d2f1-901c-42ef-b7a0-535bb21166ff")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cd64e9-2d66-4bb9-a9b5-3748fb661949")
+	)
+	(wire
+		(pts
+			(xy 46.99 66.04) (xy 53.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ef3db6-9ed0-4ed9-ac77-1cdcec7be509")
+	)
+	(wire
+		(pts
+			(xy 58.42 36.83) (xy 58.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e4dc97-94b6-4966-81cf-1370cb4f4d0f")
+	)
+	(wire
+		(pts
+			(xy 63.5 195.58) (xy 63.5 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7931ab90-2bf5-47fd-a4ee-8eb94f6b6307")
+	)
+	(wire
+		(pts
+			(xy 63.5 113.03) (xy 63.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a078054-c860-49a6-bcad-f288ae16080b")
+	)
+	(wire
+		(pts
+			(xy 53.34 143.51) (xy 53.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b50454e-3a40-4c4c-92a4-ca24af671229")
+	)
+	(wire
+		(pts
+			(xy 46.99 158.75) (xy 53.34 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a3de85-c60c-475c-9336-68c0402217c5")
+	)
+	(wire
+		(pts
+			(xy 58.42 68.58) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83332420-063d-41e2-beb8-97fa31bc48be")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bed6ca-461c-4bc0-a0b6-46ce74c50c96")
+	)
+	(wire
+		(pts
+			(xy 46.99 133.35) (xy 63.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93104126-01d9-4fb5-960c-254ae0eac9da")
+	)
+	(wire
+		(pts
+			(xy 46.99 195.58) (xy 63.5 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955a2005-9b4e-4a05-be97-632c32bf0cd4")
+	)
+	(wire
+		(pts
+			(xy 58.42 113.03) (xy 58.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980d4bd3-62af-4817-b567-923c0e7ee6b2")
+	)
+	(wire
+		(pts
+			(xy 53.34 96.52) (xy 53.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abba9a72-8da9-49c0-93f1-1c188e4d4330")
+	)
+	(wire
+		(pts
+			(xy 46.99 36.83) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b451f541-ac01-47f7-bb3a-af8f553cf807")
+	)
+	(wire
+		(pts
+			(xy 58.42 175.26) (xy 58.42 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaae6dc-da86-4176-b569-c8b550270be1")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 53.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc513b60-c700-4a5f-b39d-f5f4e40f0a5b")
+	)
+	(wire
+		(pts
+			(xy 53.34 19.05) (xy 53.34 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be575699-4c6f-43c8-a466-7cc53eaa1702")
+	)
+	(wire
+		(pts
+			(xy 46.99 128.27) (xy 53.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c081d062-6fb9-4bf0-826c-245e6b88d66e")
+	)
+	(wire
+		(pts
+			(xy 63.5 133.35) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c518b785-fadf-4a9d-8ef7-62970eff1f95")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77823f4-f29e-40a6-9010-ccb4d63d514b")
+	)
+	(wire
+		(pts
+			(xy 53.34 128.27) (xy 53.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3289be4-49c5-4810-9b73-90ec15b043bd")
+	)
+	(wire
+		(pts
+			(xy 46.99 161.29) (xy 58.42 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39a3477-acf2-4146-ace9-b95fab4c781b")
+	)
+	(wire
+		(pts
+			(xy 63.5 101.6) (xy 63.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2542b9-d8e9-4bb1-b5c2-ef0d2a0786fe")
+	)
+	(wire
+		(pts
+			(xy 63.5 143.51) (xy 63.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dee0bc-527c-48c8-a918-88bd0e749189")
+	)
+	(wire
+		(pts
+			(xy 46.99 39.37) (xy 63.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bae446-fd2d-4b5d-ac8e-d31ca19ab096")
+	)
+	(wire
+		(pts
+			(xy 53.34 66.04) (xy 53.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecaf790d-0d57-40be-bc5f-b3cdd525a40e")
+	)
+	(wire
+		(pts
+			(xy 53.34 50.8) (xy 53.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f403101a-b2ee-49f2-b111-5a5c3c82d3ce")
+	)
+	(wire
+		(pts
+			(xy 46.99 68.58) (xy 58.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8fbb1e-ce80-4fb2-ba9d-dc6ea9b8927f")
+	)
+	(wire
+		(pts
+			(xy 46.99 190.5) (xy 53.34 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc154224-6bd0-4cad-8447-3a84c9abd6cd")
+	)
+	(wire
+		(pts
+			(xy 53.34 81.28) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3efe76-8cd3-4f6e-bb92-046ecae2bbce")
+	)
+	(wire
+		(pts
+			(xy 46.99 130.81) (xy 58.42 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec51687-9e81-491c-9e51-bac3dab23cae")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1b7c33-8ea7-4637-a82e-32cfe2cd7f97")
+	)
+	(wire
+		(pts
+			(xy 53.34 158.75) (xy 53.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2d5c3a-42c4-4060-9060-a3d7047c6173")
+	)
+	(hierarchical_label "ROW_R4"
+		(shape input)
+		(at 46.99 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11d7da42-8f5a-45ee-801b-0e6f5835199e")
+	)
+	(hierarchical_label "COL_B"
+		(shape input)
+		(at 63.5 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17af149b-9618-4457-9b50-ad52a8da5e97")
+	)
+	(hierarchical_label "ROW_B5"
+		(shape input)
+		(at 46.99 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17db7b09-1824-4a1f-825a-5c250710ace6")
+	)
+	(hierarchical_label "COL_B"
+		(shape input)
+		(at 63.5 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2265f9f5-b4d5-40ec-aea1-3768a35e4c9f")
+	)
+	(hierarchical_label "ROW_G2"
+		(shape input)
+		(at 46.99 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ca0b6ce-0ffc-4ec9-9535-32d68c42c2fc")
+	)
+	(hierarchical_label "COL_R"
+		(shape input)
+		(at 53.34 143.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "343d761d-bf7c-4a91-9139-ab7be34d2171")
+	)
+	(hierarchical_label "COL_R"
+		(shape input)
+		(at 53.34 19.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "354c6d3e-049c-4e6b-9131-7cb2a929b6a3")
+	)
+	(hierarchical_label "COL_R"
+		(shape input)
+		(at 53.34 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4896fbab-206d-42f0-a34c-b84a93268237")
+	)
+	(hierarchical_label "ROW_R2"
+		(shape input)
+		(at 46.99 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49ed2ca5-5479-4f79-ac9e-7bacdaf10f9f")
+	)
+	(hierarchical_label "ROW_G4"
+		(shape input)
+		(at 46.99 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e3600fa-5a30-4e03-8742-fb173dff78aa")
+	)
+	(hierarchical_label "ROW_B2"
+		(shape input)
+		(at 46.99 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b25247b-014b-4b23-b34f-0746671cf8e9")
+	)
+	(hierarchical_label "ROW_B1"
+		(shape input)
+		(at 46.99 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c5299a5-c7c6-4e6d-a65b-81c442babe69")
+	)
+	(hierarchical_label "COL_R"
+		(shape input)
+		(at 53.34 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7318fe7a-c618-4f47-befa-146ec34a480c")
+	)
+	(hierarchical_label "COL_G"
+		(shape input)
+		(at 58.42 143.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c5a9f74-23f5-4503-a06c-5ec2e9385f89")
+	)
+	(hierarchical_label "ROW_G3"
+		(shape input)
+		(at 46.99 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86023d8a-cc5e-4834-9cd0-e5e9fb90fa86")
+	)
+	(hierarchical_label "COL_R"
+		(shape input)
+		(at 53.34 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8672bcfd-5fdb-411f-89e1-c54b884d6264")
+	)
+	(hierarchical_label "COL_B"
+		(shape input)
+		(at 63.5 143.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "923abf52-4e88-473d-b59a-d78b4e9379d9")
+	)
+	(hierarchical_label "ROW_R5"
+		(shape input)
+		(at 46.99 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e33c68c-e822-4206-89b4-2bb8316d88db")
+	)
+	(hierarchical_label "ROW_G0"
+		(shape input)
+		(at 46.99 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fff292d-ca50-4d53-86ee-8b48f82a879b")
+	)
+	(hierarchical_label "COL_B"
+		(shape input)
+		(at 63.5 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4614f98-9e36-49ae-b34d-648cd0bd6e4e")
+	)
+	(hierarchical_label "COL_B"
+		(shape input)
+		(at 63.5 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a58b8e13-89f2-444d-a189-ab27326f79a3")
+	)
+	(hierarchical_label "ROW_R0"
+		(shape input)
+		(at 46.99 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac8dabb8-758d-4530-b646-30f63fc84034")
+	)
+	(hierarchical_label "ROW_G1"
+		(shape input)
+		(at 46.99 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad60c90d-4edd-4c12-b223-4e00d44de798")
+	)
+	(hierarchical_label "COL_B"
+		(shape input)
+		(at 63.5 19.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5d2e8c2-e326-4ed6-8028-9a2119cba04f")
+	)
+	(hierarchical_label "COL_R"
+		(shape input)
+		(at 53.34 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf6fbb75-aae2-417d-a798-3461bcbaa9a2")
+	)
+	(hierarchical_label "COL_G"
+		(shape input)
+		(at 58.42 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c81964c8-f1f7-464b-8227-5a02a104e5fa")
+	)
+	(hierarchical_label "COL_G"
+		(shape input)
+		(at 58.42 175.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8dc3c42-ccd8-442f-b32b-2147b14412cd")
+	)
+	(hierarchical_label "COL_G"
+		(shape input)
+		(at 58.42 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddec5ebc-4e62-468e-ad13-df4aa577715a")
+	)
+	(hierarchical_label "ROW_B3"
+		(shape input)
+		(at 46.99 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e129fe4a-c490-4dc3-b4f5-ed3140e7a09b")
+	)
+	(hierarchical_label "ROW_R1"
+		(shape input)
+		(at 46.99 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e745e097-4df2-4ba9-af33-c1e90b370af8")
+	)
+	(hierarchical_label "ROW_B0"
+		(shape input)
+		(at 46.99 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eeff80e7-2022-4df0-8dd5-67c4c975745c")
+	)
+	(hierarchical_label "COL_G"
+		(shape input)
+		(at 58.42 19.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef51144d-e894-454e-aa59-8e4346ca7d28")
+	)
+	(hierarchical_label "ROW_R3"
+		(shape input)
+		(at 46.99 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4330cc7-55a5-4ccf-8fbd-54f62686c63c")
+	)
+	(hierarchical_label "COL_G"
+		(shape input)
+		(at 58.42 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f470fbde-69ac-4faf-bde0-8b0d2a98ed31")
+	)
+	(hierarchical_label "ROW_G5"
+		(shape input)
+		(at 46.99 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f59faebe-c796-42fd-a60c-9ddf185ea0bd")
+	)
+	(hierarchical_label "ROW_B4"
+		(shape input)
+		(at 46.99 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fff67558-c2b0-4d61-aa31-7ff4f2e1c5d7")
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FM-Z2727RGBA-SH")
+		(at 58.42 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ff6f6fc-62a8-4d03-971f-18f94f33e8f1")
+		(property "Reference" "LED207"
+			(at 54.864 182.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FM-Z2727RGBA-SH"
+			(at 65.915 184.8521 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_6P-L2.7-W2.8-TL"
+			(at 71.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-Z2727RGBA-SH_C727905.html"
+			(at 73.66 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727905"
+			(at 76.2 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "52256931-5a18-49ab-a962-45329337462c")
+		)
+		(pin "1"
+			(uuid "23ef1fb9-0655-4e65-9369-30a73fbe41de")
+		)
+		(pin "5"
+			(uuid "68cb5985-7cab-4761-bf2b-0a91e251a3f8")
+		)
+		(pin "6"
+			(uuid "3b165d76-67f5-4bb2-8473-db11ebe31e6e")
+		)
+		(pin "4"
+			(uuid "9c004957-1bbf-49fb-8c28-cd3cff5d4dc3")
+		)
+		(pin "2"
+			(uuid "d4c2cc01-638d-4f1e-a7a5-501a6d4c8753")
+		)
+		(instances
+			(project "RGBadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0b3d3a0b-4cd7-478b-85d1-349e4a4be3ca"
+					(reference "LED312")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0efc852a-f392-413d-bee5-f57bd0900df3"
+					(reference "LED612")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/153758fd-9e48-4b93-924f-f244b6de97fc"
+					(reference "LED207")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/58b1753d-2a1f-49c6-ae1b-c269f065a375"
+					(reference "LED606")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/877a5f31-e11b-476b-b5a5-ff2a3b6f5100"
+					(reference "LED318")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/9f019557-b42d-43ce-9266-5de1c9d574e0"
+					(reference "LED306")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/ccbf5ebe-9303-4088-af0e-c4c80224eb0b"
+					(reference "LED706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FM-Z2727RGBA-SH")
+		(at 58.42 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50f308b8-cba1-4c33-bfa0-9d101fc34beb")
+		(property "Reference" "LED206"
+			(at 54.864 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FM-Z2727RGBA-SH"
+			(at 65.915 153.1021 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_6P-L2.7-W2.8-TL"
+			(at 71.12 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-Z2727RGBA-SH_C727905.html"
+			(at 73.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727905"
+			(at 76.2 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "64bc024f-ca9d-440d-93dd-1adc67232fbf")
+		)
+		(pin "1"
+			(uuid "f3b3cf63-7037-4b48-80ea-5ed4229009ee")
+		)
+		(pin "5"
+			(uuid "6e49440f-4643-4a01-a017-61a57b54b637")
+		)
+		(pin "6"
+			(uuid "86146aba-099b-40ba-ad59-e8161be45f05")
+		)
+		(pin "4"
+			(uuid "fd15f31f-aded-44c8-beda-9640553d0f36")
+		)
+		(pin "2"
+			(uuid "f66f1435-1394-4062-8e01-1ea20efd2d5d")
+		)
+		(instances
+			(project "RGBadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0b3d3a0b-4cd7-478b-85d1-349e4a4be3ca"
+					(reference "LED311")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0efc852a-f392-413d-bee5-f57bd0900df3"
+					(reference "LED611")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/153758fd-9e48-4b93-924f-f244b6de97fc"
+					(reference "LED206")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/58b1753d-2a1f-49c6-ae1b-c269f065a375"
+					(reference "LED605")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/877a5f31-e11b-476b-b5a5-ff2a3b6f5100"
+					(reference "LED317")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/9f019557-b42d-43ce-9266-5de1c9d574e0"
+					(reference "LED305")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/ccbf5ebe-9303-4088-af0e-c4c80224eb0b"
+					(reference "LED705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FM-Z2727RGBA-SH")
+		(at 58.42 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c5d61c5-71c5-45b5-bb9d-15a1bb30cf64")
+		(property "Reference" "LED204"
+			(at 54.864 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FM-Z2727RGBA-SH"
+			(at 65.915 90.8721 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_6P-L2.7-W2.8-TL"
+			(at 71.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-Z2727RGBA-SH_C727905.html"
+			(at 73.66 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727905"
+			(at 76.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5067b08d-ba7b-464e-9b8b-0135b0712f44")
+		)
+		(pin "1"
+			(uuid "87e27ecb-3347-4986-9019-56a9a57a3a2f")
+		)
+		(pin "5"
+			(uuid "ced3b7d7-b4fd-4fe2-bbfa-e281aee34b48")
+		)
+		(pin "6"
+			(uuid "70d6c834-3c74-46a1-be0f-634f4e4fa64a")
+		)
+		(pin "4"
+			(uuid "760e8c19-9f68-482f-b787-b7050c10184a")
+		)
+		(pin "2"
+			(uuid "c501514e-cf80-4620-b72c-9070cbed15b9")
+		)
+		(instances
+			(project "RGBadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0b3d3a0b-4cd7-478b-85d1-349e4a4be3ca"
+					(reference "LED309")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0efc852a-f392-413d-bee5-f57bd0900df3"
+					(reference "LED609")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/153758fd-9e48-4b93-924f-f244b6de97fc"
+					(reference "LED204")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/58b1753d-2a1f-49c6-ae1b-c269f065a375"
+					(reference "LED603")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/877a5f31-e11b-476b-b5a5-ff2a3b6f5100"
+					(reference "LED315")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/9f019557-b42d-43ce-9266-5de1c9d574e0"
+					(reference "LED303")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/ccbf5ebe-9303-4088-af0e-c4c80224eb0b"
+					(reference "LED703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FM-Z2727RGBA-SH")
+		(at 58.42 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1a6780b-c84d-4f2a-943b-58c30490a687")
+		(property "Reference" "LED201"
+			(at 54.864 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FM-Z2727RGBA-SH"
+			(at 65.915 28.6421 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_6P-L2.7-W2.8-TL"
+			(at 71.12 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-Z2727RGBA-SH_C727905.html"
+			(at 73.66 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727905"
+			(at 76.2 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a4bcb9de-5448-4b99-81a5-a6c98fdd4500")
+		)
+		(pin "1"
+			(uuid "7143ae10-6e0c-4baa-9f4e-ca48b4b0423c")
+		)
+		(pin "5"
+			(uuid "b8000806-c8cb-459f-bfab-578b550957f3")
+		)
+		(pin "6"
+			(uuid "4e1de2b8-d3b5-4781-96c7-92d2f49e9807")
+		)
+		(pin "4"
+			(uuid "9da80c68-8d0c-46d4-aa72-19d938db77c4")
+		)
+		(pin "2"
+			(uuid "297f09f6-149b-452e-a213-734452d90bda")
+		)
+		(instances
+			(project "RGBadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0b3d3a0b-4cd7-478b-85d1-349e4a4be3ca"
+					(reference "LED307")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0efc852a-f392-413d-bee5-f57bd0900df3"
+					(reference "LED607")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/153758fd-9e48-4b93-924f-f244b6de97fc"
+					(reference "LED201")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/58b1753d-2a1f-49c6-ae1b-c269f065a375"
+					(reference "LED601")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/877a5f31-e11b-476b-b5a5-ff2a3b6f5100"
+					(reference "LED313")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/9f019557-b42d-43ce-9266-5de1c9d574e0"
+					(reference "LED301")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/ccbf5ebe-9303-4088-af0e-c4c80224eb0b"
+					(reference "LED701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FM-Z2727RGBA-SH")
+		(at 58.42 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd040aa9-c540-46d5-8ee2-7b0cfae0d648")
+		(property "Reference" "LED205"
+			(at 54.864 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FM-Z2727RGBA-SH"
+			(at 65.915 122.6221 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_6P-L2.7-W2.8-TL"
+			(at 71.12 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-Z2727RGBA-SH_C727905.html"
+			(at 73.66 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727905"
+			(at 76.2 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e88a1d43-e8c0-48d2-8b24-168f1017b6d7")
+		)
+		(pin "1"
+			(uuid "fd4fef54-e4e9-4826-812a-02630c718caf")
+		)
+		(pin "5"
+			(uuid "bb0fdbe6-5a0b-48f0-a7aa-2396a6e01f79")
+		)
+		(pin "6"
+			(uuid "7f3d7015-9879-4e7a-a2eb-b10a94971a9d")
+		)
+		(pin "4"
+			(uuid "7e6b1234-874f-4ef6-963b-d5613ff1ad3e")
+		)
+		(pin "2"
+			(uuid "bd3e2b62-de7d-45b0-94d9-bd3053d06ac2")
+		)
+		(instances
+			(project "RGBadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0b3d3a0b-4cd7-478b-85d1-349e4a4be3ca"
+					(reference "LED310")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0efc852a-f392-413d-bee5-f57bd0900df3"
+					(reference "LED610")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/153758fd-9e48-4b93-924f-f244b6de97fc"
+					(reference "LED205")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/58b1753d-2a1f-49c6-ae1b-c269f065a375"
+					(reference "LED604")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/877a5f31-e11b-476b-b5a5-ff2a3b6f5100"
+					(reference "LED316")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/9f019557-b42d-43ce-9266-5de1c9d574e0"
+					(reference "LED304")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/ccbf5ebe-9303-4088-af0e-c4c80224eb0b"
+					(reference "LED704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FM-Z2727RGBA-SH")
+		(at 58.42 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e44863ec-7625-4352-97bc-7fd4a81c41c5")
+		(property "Reference" "LED203"
+			(at 54.864 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FM-Z2727RGBA-SH"
+			(at 65.915 60.3921 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_6P-L2.7-W2.8-TL"
+			(at 71.12 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-Z2727RGBA-SH_C727905.html"
+			(at 73.66 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727905"
+			(at 76.2 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0dfb8e12-c86a-415e-ad2c-cbce68ce8740")
+		)
+		(pin "1"
+			(uuid "7e539d19-0603-4550-902d-1c489615bd74")
+		)
+		(pin "5"
+			(uuid "35161731-76f7-4667-96d2-7d5e649fefeb")
+		)
+		(pin "6"
+			(uuid "9de953e9-8dd3-4888-9156-1659d6ec4731")
+		)
+		(pin "4"
+			(uuid "a5d321e5-5774-4743-8409-57730d569095")
+		)
+		(pin "2"
+			(uuid "01c0609e-8ecf-428f-8b31-d6aecc3957db")
+		)
+		(instances
+			(project "RGBadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0b3d3a0b-4cd7-478b-85d1-349e4a4be3ca"
+					(reference "LED308")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/0efc852a-f392-413d-bee5-f57bd0900df3"
+					(reference "LED608")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/153758fd-9e48-4b93-924f-f244b6de97fc"
+					(reference "LED203")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/58b1753d-2a1f-49c6-ae1b-c269f065a375"
+					(reference "LED602")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/877a5f31-e11b-476b-b5a5-ff2a3b6f5100"
+					(reference "LED314")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/9f019557-b42d-43ce-9266-5de1c9d574e0"
+					(reference "LED302")
+					(unit 1)
+				)
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/ccbf5ebe-9303-4088-af0e-c4c80224eb0b"
+					(reference "LED702")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

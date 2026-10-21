@@ -1,0 +1,54 @@
+[package]
+name = "rgbadge-fw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+panic-halt = "1.0.0"
+cortex-m = { version = "0.7.7", features = [
+    "critical-section-single-core",
+    "critical-section",
+] }
+# BUT sits on PF4/BOOT0 with a pull-up, so the chip usually comes up in the
+# system memory boot mode: take SP and the vector table from flash explicitly.
+cortex-m-rt = { version = "0.7.3", features = ["set-sp", "set-vtor"] }
+
+embassy-executor = { version = "0.6.1", features = ["arch-cortex-m", "executor-thread", "executor-interrupt", "defmt", "integrated-timers"] }
+embassy-time = { version = "0.3.2", features = ["defmt", "defmt-timestamp-uptime", "tick-hz-32_768"] }
+
+# "memory-x" is left out, the layout comes from ./memory.x instead.
+py32-hal = { version = "=0.2.0", default-features = false, features = [
+    "rt",
+    "defmt",
+    "embassy",
+    "time",
+    "exti",
+    "time-driver-tim3",
+    "py32f030k28",
+] }
+
+# Not pushed yet. Once it is, replace the path with:
+# git = "ssh://git@github.com/rough-rat/py32-badgekit.git", tag = "v0.1.0"
+py32-badgekit = { path = "../../../../firmware/py32-badgekit", features = ["charlieplex"] }
+
+defmt = "0.3"
+defmt-rtt = "0.4"
+
+# cargo build/run
+[profile.dev]
+codegen-units = 1
+debug = 2
+debug-assertions = true # <-
+incremental = false
+opt-level = 'z'         # <-
+overflow-checks = true  # <-
+
+# cargo build/run --release
+[profile.release]
+codegen-units = 1
+debug = 2
+debug-assertions = false # <-
+incremental = false
+lto = 'fat'
+opt-level = 's'          # <-
+overflow-checks = false  # <-
